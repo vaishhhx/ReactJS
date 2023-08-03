@@ -33,3 +33,21 @@ if(d>0){
 else{
     console.log("The number is negative") 
 }
+
+//looping, for, foreach, forin, forof while, do..while
+
+//for loop
+for(i = 0; i<a;i++){
+    console.log(i)
+}
+
+//while loop
+i = 0
+while(i <=a){
+    console.log(i)
+    i++
+}
+
+//foreach
+array = [10,20]
+array.forEach(element => console.log(element));
