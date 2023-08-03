@@ -6,24 +6,70 @@
     <title>Hello</title>
     <link rel = "icon" href = "Assets/image1.jpg">
     <style>
-        h1{
+        /*h1{
             font-size: 20px;
             color: cornflowerblue;
             position: relative;
         }
-        /**{
+        *{
             font-family: Georgia, 'Times New Roman', Times, serif;
         }*/
 
+        .flex-container{
+            display: flex;
+            background-color: azure;
+        }
+
+        .flex-container > div{
+            background-color:hotpink;
+            font-size: 30px;
+            margin: 10px;
+
+        }
+        
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .grid-item{
+            background-color: rgba(red, green, blue, alpha);
+            border: 1px solid rgba(red, green, blue, alpha);
+            padding: 20px;
+            text-align: center;
+        }
+
+        div {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            border: 10px rgb(119, 56, 41);
+        }
+        h1,h2,p{
+            font-size: 20px;
+            color: darkslategray;
+            position: relative;
+        }
+
+        .hello{
+            padding-left:20%;
+        }
+        p.padTop{
+            padding-top: 40%;
+            padding-bottom: 40%;
+        }
+        #idtag{
+            text-shadow: 5cm;
+        }
 
     </style>
 </head>
 
 <body>
     <div>
-    <h1 style="color: hotpink; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Vaishali V</h1>
-    <h2 style="color: cornflowerblue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">21BAD061</h2>
-    <h3 style="color: cornflowerblue; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">HTML basics</h3>
+    <h1 style="color: hotpink; font-family:Georgia, 'Times New Roman', Times, serif;">Vaishali V</h1>
+    <h2 style="color: cornflowerblue; font-family: Georgia, 'Times New Roman', Times, serif;">21BAD061</h2>
+    <h3 style="color: cornflowerblue; font-family:Georgia, 'Times New Roman', Times, serif;">HTML basics</h3>
     </div>
 
     <div>
@@ -33,6 +79,17 @@
         <li>two</li>
         <li>three</li>
     </ul>
+    </div>
+
+    <div class="flex-container">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+    </div>
+    
+    <div class = "grid-container">
+        <div class="grid-item">Hello</div>
+        <div class="grid-item">Hi</div>
     </div>
 
     <div>
