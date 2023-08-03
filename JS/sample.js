@@ -22,8 +22,12 @@ console.log("This is the value declared in const type: " + c);
 
 
 //If else
-a = 7
-if(a>0){
+d = 0
+if(d===0){
+    console.log("The number is zero and adding 1 to it to make it positive")
+    d=d+1
+}
+if(d>0){
     console.log("The number is positive")
 }
 else{
