@@ -69,4 +69,9 @@ console.log(a.sunroof.isPresent)
 
 for (var ele in a){
     console.log(ele +":" + a[ele])
+    if (typeof a[ele] === "object"){
+        for (var val in a[ele]){
+            console.log(val + ":" + a[ele][val])
+        }
+    }
 }
